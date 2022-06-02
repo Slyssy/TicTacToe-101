@@ -50,7 +50,7 @@ const addMarker = (id) => {
   // document
   // .innerHTML
   document.getElementById(id).innerHTML = currentMarker;
-  changeMarker();
+  checkForWin();
 };
 
 // This "changeMarker" function changes "X" to "O" in the "currentMarker" variable or "O" to "X"
