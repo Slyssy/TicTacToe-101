@@ -50,15 +50,15 @@ const addMarker = (id) => {
   // document
   // .innerHTML
   document.getElementById(id).innerHTML = currentMarker;
-  checkForWin();
+  changeMarker();
 };
 
 // This "changeMarker" function changes "X" to "O" in the "currentMarker" variable or "O" to "X"
 const changeMarker = () => {
-  if (currentMarker === 'X'.toUpperCase()) {
-    currentMarker = 'O'.toUpperCase();
+  if (currentMarker === 'X') {
+    currentMarker = 'O';
   } else {
-    currentMarker = 'X'.toUpperCase();
+    currentMarker = 'X';
   }
 };
 
