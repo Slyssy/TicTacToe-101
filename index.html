@@ -26,19 +26,55 @@
       <table>
         <tr id="top-row">
           <!-- the onclick calls a function called "handleClick" and passes itself to it -->
-          <td id="0-0" onclick="handleClick(this)"></td>
-          <td id="0-1" onclick="handleClick(this)"></td>
-          <td id="0-2" onclick="handleClick(this)"></td>
+          <td
+            id="0-0"
+            class="diagonal-cell-left vertical-cell-left"
+            onclick="handleClick(this)"
+          ></td>
+          <td
+            id="0-1"
+            class="vertical-cell-middle"
+            onclick="handleClick(this)"
+          ></td>
+          <td
+            id="0-2"
+            class="diagonal-cell-right vertical-cell-right"
+            onclick="handleClick(this)"
+          ></td>
         </tr>
         <tr id="middle-row">
-          <td id="1-0" onclick="handleClick(this)"></td>
-          <td id="1-1" onclick="handleClick(this)"></td>
-          <td id="1-2" onclick="handleClick(this)"></td>
+          <td
+            id="1-0"
+            class="vertical-cell-left"
+            onclick="handleClick(this)"
+          ></td>
+          <td
+            id="1-1"
+            class="diagonal-cell-left diagonal-cell-right vertical-cell-middle"
+            onclick="handleClick(this)"
+          ></td>
+          <td
+            id="1-2"
+            class="vertical-cell-right"
+            onclick="handleClick(this)"
+          ></td>
         </tr>
         <tr id="bottom-row">
-          <td id="2-0" onclick="handleClick(this)"></td>
-          <td id="2-1" onclick="handleClick(this)"></td>
-          <td id="2-2" onclick="handleClick(this)"></td>
+          <td
+            id="2-0"
+            class="diagonal-cell-right vertical-cell-left"
+            onclick="handleClick(this)"
+          ></td>
+          <td
+            id="2-1"
+            class="vertical-cell-middle"
+            onclick="handleClick(this)"
+          ></td>
+          <td
+            id="2-2"
+            class="diagonal-cell-left vertical-cell-right"
+            onclick="handleClick(this)"
+          ></td>
         </tr>
       </table>
     </div>

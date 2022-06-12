@@ -4,8 +4,8 @@
 }
 
 td {
-  height:150px;
-  width:150px;
+  height: 150px;
+  width: 150px;
   text-align: center;
   border: 5px solid black;
   font-size: 100px;
@@ -13,4 +13,8 @@ td {
 
 table {
   margin: auto auto;
+}
+
+.winner {
+  background-color: rgba(250, 195, 54, 0.793);
 }
